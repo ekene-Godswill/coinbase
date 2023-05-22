@@ -400,6 +400,7 @@ table,tr{
 }
 .track > div:nth-of-type(2) > div:nth-of-type(2) > img{
     width:100%;
+    /* height:auto; */
 }
 
 
