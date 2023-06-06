@@ -376,6 +376,7 @@ table,tr{
     gap:30px;
     align-items: center;
     width:90%;
+    margin-bottom: 30px;
 }
 .track > div:first-of-type{
     display: flex;
@@ -396,13 +397,177 @@ table,tr{
     gap:20px;
 }
 .track > div:nth-of-type(2) > div:nth-of-type(2){
-    width:70%;
+    width:65%;
 }
 .track > div:nth-of-type(2) > div:nth-of-type(2) > img{
     width:100%;
     /* height:auto; */
 }
+.div-div > div{
+    display: flex;
+    align-items:center;
+    gap: 30px;
+    margin: 5px; 
+    margin-right: 32px;
+    height: 150px;
+}
+.div-div > div > div:first-of-type{
+        margin-top: -8px;
+        flex-shrink: 0;
+        width: 80px;
+        height: 80px;
+        background-color:white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: rgba(218, 225, 233, 0.557) 0px 8px 16px;
+}
+.div-div > div > div:last-of-type > h2{
+    margin-top: 0px;
+    font-size: 23px;
+    font-weight: 650;
+}
+.div-div > div > div:last-of-type > p{
+    width: 360px;
+    font-size: 20px;
+    color: #5b616e;
+}
+.div-div > div > div:last-of-type > p > a{
+    color: #0052ff;
+}
+.div-div > div > div:last-of-type > p > a:hover{
+    cursor: pointer;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color:rgb(238,240,243);
+    margin: 30px 0;
+}
+.fifth-section{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    justify-content: center;
+    
+}
+.div-class{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+    width:80%;
+    height: 650px
+}
+.div-class > div:first-of-type{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.div-class > div:first-of-type > h2{
+    font-size: 43px;
+    margin: 3px;
+}
+.div-class > div:first-of-type > p{
+    font-size: 20px;
+    color: #5b616e;
+}
+.div-A{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 
+}
+.div-A > div > div:first-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-A > div > div:last-of-type > h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 650;
+    /* margin-top: 32px; */
+}
+.div-A > div > div:last-of-type > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #5b616e;
+    margin-bottom: 70px;
+}
+.div-A > div > a{
+    color: #0052ff;
+    font-size:16px;
+    font-weight: 600;
+    
+      
+}
+.div-A > div > a:hover{
+    cursor: pointer;
+}
+.sixth-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0052ff;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.div-6{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 80%;
+    height: 200px;
+    padding: 20px 0;
+    gap: 20px;
+    color: white;
+    flex: 1 1 0%;
+} 
+.div-6 > div{
+    /* margin: 10px; */
+}
+.div-6 > div:first-of-type > div:first-child{
+    margin: 15px 0;
+    font-size: 56px;
+    font-weight:700;
+    line-height: 48px
+
+}
+.div-6 > div:first-of-type > div:last-child{
+    line-height: 24px;
+    font-size: 18px;
+    opacity: 0.7;
+}
+.div-6 > div:nth-child(2) > div:first-child{
+    margin: 15px 0;
+    font-size: 56px;
+    font-weight:700;
+    line-height: 48px
+}
+.div-6 > div:nth-child(2) > div:last-child{
+    line-height: 24px;
+    font-size: 18px;
+    opacity: 0.7;
+}
+.div-6 > div:last-of-type > div:first-child{
+    margin: 15px 0;
+    font-size: 56px;
+    font-weight:700;
+    line-height: 48px
+}
+.div-6 > div:last-of-type > div:last-child{
+    line-height: 24px;
+    font-size: 18px;
+    opacity: 0.7;
+}
 
  @media screen and (max-width:1300px) {
     .table-section > table{
